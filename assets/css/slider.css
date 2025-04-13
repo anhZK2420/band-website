@@ -1,0 +1,29 @@
+.slider{
+
+  background: url('/assets/img/slider-chicago.jpg') top center / cover no-repeat;
+  margin-top:46.5px;
+  padding-top: 50%;
+  position: relative;
+  
+}
+
+.text-content{
+  position: absolute;
+  bottom: 47px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.text-content .text-heading{
+ font-weight: 500;
+ font-size: 24px;
+}
+
+.text-content .text-description{
+  font-size: 15px;
+  margin-top: 25px;
+  
+}
+

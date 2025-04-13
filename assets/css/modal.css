@@ -1,0 +1,116 @@
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn ease 0.3s;
+}
+
+.modal .modal-container{
+  background-color: #ffffff;
+  width: 900px;
+  height: 460px;
+  max-width: calc(100% - 40px);
+
+
+}
+
+.modal .modal-container .modal-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  height: 129px;
+  background-color: #009688;
+  font-size: 30px;
+  letter-spacing: 7px;
+  color: #ffffff;
+
+}
+
+.modal .modal-container .modal-header .ti-bag{
+ margin-bottom: 5px;
+ margin-right: 10px;
+}
+
+.modal-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 16px 16px;
+
+
+}
+
+.modal-close:hover{
+  background-color: #ccc;
+  color: #000;
+
+}
+
+.modal-body .modal-label{
+  margin: 15px 0;
+  width: 868px;
+  font-size: 15px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.modal-body .modal-input{
+  width: 868px;
+  height: 35.5px;
+
+  padding: 8px;
+  font-size: 15px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.modal-footer .modal-button{
+  width: 868px;
+  height: 55.5px;
+  background-color: #009688;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.modal-footer .modal-button:hover{
+  background-color: #ccc;
+  color: #000;
+}
+
+.modal.open {
+  display: flex; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-140px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
