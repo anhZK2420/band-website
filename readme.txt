@@ -29,9 +29,9 @@ band-website/ ├── index.html ├── assets/ │ ├── css/ │ │ 
 
 ---
 
-![Giao diện website](assets/img/product/1.png)
-![Giao diện website](assets/img/product/2.png)
-![Giao diện website](assets/img/product/3.png)
+![Giao diện website](assets/img/1.png)
+![Giao diện website](assets/img/2.png)
+
 
 
 
