@@ -29,8 +29,9 @@ band-website/ ├── index.html ├── assets/ │ ├── css/ │ │ 
 
 ---
 
-![Giao diện website](assets/img/1.png)
-![Giao diện website](assets/img/2.png)
+![Giao diện website](https://github.com/anhZK2420/band-website/blob/954796db5ba488c684a5499b0d208569d5158e52/assets/img/1.png)
+![Giao diện website](https://github.com/anhZK2420/band-website/blob/954796db5ba488c684a5499b0d208569d5158e52/assets/img/2.png)
+
 
 
 
