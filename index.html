@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/body.css">
   <link rel="stylesheet" href="assets/css/content.css">
   <link rel="stylesheet" href="assets/css/modal.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
   <script src="assets/js/main.js" defer></script>
 
   
@@ -22,10 +23,10 @@
 
     <div class="header">
       <div class="Left_header">
-        <div>HOME</div>
-        <div>BAND</div>
-        <div>TOUR</div>
-        <div>CONTACT</div>
+        <a href= "#">HOME</a>
+        <a href="#band">BAND</a>
+        <a href="#tour">TOUR</a>
+        <a href="#footer">CONTACT</a>
         <div class="More">MORE
           <i class="arrow ti-angle-down"></i>
           <div class="More_dropdown">
@@ -51,9 +52,9 @@
       
     </div>
 
-    <div class="content">
+    <div class="content" id="band">
       <div class="content-section">
-        <h2 class="section-heading">THE BAND</h2>
+        <h2 class="section-heading" >THE BAND</h2>
         <p class="section-sub-heading">We love music</p>
         <p class="content-description">We have created a fictional band website. 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -82,8 +83,8 @@
 
       </div>  
       
-      <div class="tour">
-        <div class="content-section">
+      <div class="tour" id="tour">
+        <div class="content-section2">
           <h2 class="section-heading">TOUR DATES</h2>
           <p class="section-sub-heading">Remember to book your tickets!</p>
         </div>
@@ -161,6 +162,59 @@
           
         
     
+    </div>
+
+    <div class="footer" id="footer">
+      <div class="footer-contact">
+        <h2 class="section-heading">CONTACT</h2>
+        <p class="section-sub-heading">Fan? Drop a note!</p>
+
+        <div class="row">
+          <div class="col colhalf left">
+            <p><i class="ti-location-pin"> Chicago, US</i></p>
+            <p><i class="ti-mobile"> Phone: +00 151515</i></p>
+            <p><i class="ti-email">  Email: mail@mail.com</i></p>
+
+          </div>
+
+          <div class="col colhalf">
+            <form class="contact-form"  action="https://www.facebook.com/ajnwui.ngyyeuok/" method="POST">
+              <div class="sub-contact-form">
+                <input type="text" placeholder="Name" class="form-input" required>
+                <input type="email" placeholder="Email" class="form-input" required>
+              </div>
+              
+              <textarea placeholder="Message" class="form-textarea"></textarea required>
+              <button type="submit" class="form-button">SEND</button>
+
+
+            </form>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="footer-map">
+        <img src="assets/img/map.jpg" alt="map" class="map">
+
+      </div>
+
+      <div class="footer-social">
+        <i class="ti-facebook"></i>
+        <i class="ti-instagram"></i>
+        <i class="ti-twitter-alt"></i>
+        <i class="ti-pinterest"></i>
+        <i class="ti-linkedin"></i>
+        <i class="ti-reddit"></i>
+
+      </div>
+
+      
+
     </div>
 
   

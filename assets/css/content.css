@@ -1,6 +1,6 @@
 .content .content-section{
   max-width: 800px;
-  padding: 64px 0;
+  padding: 165px 0;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -8,7 +8,17 @@
 }
 
 
-.content .section-heading{
+.content .content-section2{
+  max-width: 800px;
+  padding: 76px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+
+ .section-heading{
   font-size: 30px;
   text-align: center;
   font-weight: 500;
@@ -16,7 +26,7 @@
 
 }
 
-.content .section-sub-heading{
+ .section-sub-heading{
   font-size: 15px;
   text-align: center;
   margin-top: 25px;
@@ -24,7 +34,7 @@
   opacity: 0.6;
 }
 
-.content .content-description{
+ .content-description{
   margin: 25px 0;
   text-align: justify;
   line-height: 1.4;
@@ -69,7 +79,7 @@
 
 
 .content .tour{
-  height: 845px;
+  height: 850px;
   background-color: #000;
   color: #fff;
 
@@ -192,3 +202,4 @@
   background-color: #ccc;
   color: #000;
 }
+
